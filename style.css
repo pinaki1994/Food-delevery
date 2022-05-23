@@ -1,0 +1,422 @@
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c2edea;
+}
+
+.wrap {
+  max-width: 11440px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.main-header {
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.left ul li {
+  display: inline-block;
+  padding-left: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.multipurpose {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pinkdot {
+  color: #ff0157;
+}
+
+.right {
+  float: right;
+
+}
+
+.right ul li {
+
+  display: inline-block;
+  padding: 10px 5px 5px 15px;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.right a {
+text-decoration: none;
+color: #000000;
+}
+
+.right a:hover {
+  color: #ff0157;
+}
+
+
+/* banner section */
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 1349px;
+  height: 640px;
+}
+
+.banner-content {
+  position: absolute;
+  transform: translate(35%, -243%);
+  color: #FFFFFF;
+  font-size: 33px;
+}
+
+h1 {
+  padding-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.banner-pera {
+  text-align: center;
+  transform: translate(0%, -1036%);
+}
+
+.pera-text {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+  transform: translate(0%, -1021%);
+  font-size: 1em;
+  color: white;
+  background: #ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn:hover{
+	color: #F7FF00;
+}
+
+.banner-button {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* about section */
+.about {
+  margin-bottom: 90px;
+}
+
+.our-company-row {
+  width: 100%;
+}
+
+.our-company-column {
+  width: 47%;
+  float: left;
+  margin: -60px 18px;
+}
+
+.about-heading {
+  font-weight: bold;
+  margin-left: -36px;
+}
+
+.about-heading ul li {
+  display: inline-block;
+  padding: 0px;
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pinkA {
+  color: #ff0157;
+}
+
+.about-img {
+  height: 405px;
+  width: 552px;
+  border-radius: 2%;
+}
+
+.about-text {
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* menu section */
+.menu {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 50px;
+}
+.menu-row{
+  padding-top: 30px;
+}
+
+.menu-title {
+  text-align: center;
+}
+
+.menu-heading ul li {
+  display: inline-block;
+  padding: 0px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pinkM {
+  color: #ff0157;
+}
+
+.menu-pera {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: -16px;
+}
+
+.section-column {
+  width: 28%;
+  float: left;
+  margin: 32px;
+}
+
+.menu-img {
+  height: 300px;
+  width: 340px;
+}
+.menu-img-content{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn2 {
+  font-size: 1em;
+  color: white;
+  background: #ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn2:hover{
+	color: #F7FF00;
+}
+
+.menu-btn {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* kitchen section */
+.kitchen{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+}
+.kitchen-title{
+  padding-top: 20px;
+  text-align: center;
+}
+.kitchen-heading ul li {
+  display: inline-block;
+  padding: 0px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.pinkE {
+  color: #ff0157;
+}
+.kitchen-pera{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: -16px;
+}
+.kitchen-column {
+  width: 18%;
+  float: left;
+  margin: 32px;
+}
+.kitchen-row{
+  padding-top: 30px
+}
+.kitchen-expert{
+  height: 300px;
+  width: 250px;
+}
+.kitchen-img-content{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* middle banner */
+
+.middle-banner{
+/* position: relative; */
+margin: 0px;
+}
+.middle-banner-title{
+  /* position: absolute */
+  transform: translate(0%, -694%);
+  text-align: center;
+}
+.middle-banner-heading ul li {
+  display: inline-block;
+  padding: 0px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.pinkS{
+  color: #ff0157;
+}
+.white{
+  color: #FFFF;
+}
+.middle-banner-pera{
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFF;
+}
+.middle-banner-items{
+  margin-right: 100px;
+}
+
+.middle-banner-img img {
+  width: 1349px;
+  height: 640px;
+
+}
+.banner-column{
+    margin: 30px 0;
+}
+.middle-banner-famous{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.banner-column{
+  width: 24%;
+  float: left;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 21px;
+
+}
+.middle-banner-content{
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.banner-row{
+transform: translate(11%, -125%);
+
+}
+.middle-banner-imgpera{
+font-family: 'Open Sans', sans-serif;
+color: #666;
+font-weight:
+}
+
+/* last banner */
+
+/* .last-banner{
+  width: 1349px;
+  height: 640px;
+  padding-bottom: 90px;
+}
+.last-banner-title{
+  text-align: center;
+  transform: translate(0%, -914%);
+}
+.last-banner-heading ul li {
+  display: inline-block;
+  padding: 0px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.pinkC{
+  color: #ff0157;
+}
+.last-banner-pera{
+  font-family: 'Open Sans', sans-serif;
+} */
+
+.map{
+  width: 100%;
+  float: left;
+  margin: -545px 0px;
+}
+
+/* footer */
+
+.main-footer{
+  background: #c2edea;
+  margin-top: 70px;
+
+}
+.footer-text{
+  text-align: center;
+}
+.footer-content ul li {
+
+  display: inline-block;
+  padding: 0px 0px 40px 0px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+.pink-text{
+  color: #ff0157;
+}
+.links{
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 20px;
+  color: #0000;
+}
+.links a {
+  text-decoration: none;
+  color: #000000;
+}
+.links a:hover {
+  color: #ff0157;
+}
